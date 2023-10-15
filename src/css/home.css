@@ -1,55 +1,944 @@
-.home {
-  height: 1117px;
-  position: relative;
-  width: 1728px;
-}
+
+
 
 .hero-section {
-  background: linear-gradient(180deg, rgba(0, 255, 224.4, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
-  height: 1117px;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 1728px;
+  background: linear-gradient(180deg, rgba(0, 255, 224.4, 0.2) 0%, rgba(176.37, 255, 245.57, 0.2) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 4678px;
+  position: relative;
+  width: 1510px;
+  margin-top: -150px;
 }
 
-.tagline {
-  height: 344px;
-  left: 57px;
+.overlap {
+  height: 322px;
+  left: 90px;
   position: absolute;
-  top: 177px;
-  width: 825px;
+  top: 220px;
+  width: 659px;
 }
 
 .tagline-text {
   color: #000000;
   font-family: "Inter-Bold", Helvetica;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 700;
-  left: 11px;
+  left: 0;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 20px;
-  width: 790px;
+  top: 0;
+  width: 659px;
 }
 
-.doc {
-  height: 554px;
-  left: 956px;
+.heading-highlight {
+  height: 172px;
+  left: 110px;
+  position: absolute;
+  top: 130px;
+  width: 522px;
+}
+
+.sub-heading {
+  color: #6e6e6e;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 255px;
+  width: 655px;
+}
+
+
+.book-an-appointment {
+  background-color: #0093ff;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  left: 90px;
+  position: absolute;
+  top: 598px;
+  width: 377px;
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.book-an-appointment:hover {
+  box-shadow: 0px 4px 10px #00000050;
+}
+
+.doc1img {
+  height: 364px;
+  left: 923px;
   object-fit: cover;
   position: absolute;
-  top: 177px;
-  width: 396px;
+  top: 221px;
+  width: 236px;
   border-radius: 20px;
 }
 
-.img {
-  height: 362px;
-  left: 1407px;
+.doc2img {
+  height: 250px;
+  left: 1204px;
   object-fit: cover;
   position: absolute;
-  top: 177px;
-  width: 264px;
+  top: 218px;
+  width: 182px;
   border-radius: 20px;
+}
+
+.overlap-group {
+  height: 929px;
+  left: 1px;
+  position: absolute;
+  top: 932px;
+  width: 1510px;
+}
+
+.stat {
+  height: 201px;
+  left: 352px;
+  position: absolute;
+  top: 0;
+  width: 789px;
+}
+
+.div {
+  height: 197px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 245px;
+}
+
+.text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 117px;
+}
+
+.text-wrapper-3 {
+  color: #707070;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 237px;
+}
+
+.exp-underline {
+  height: 193px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 204px;
+}
+
+.overlap-2 {
+  height: 200px;
+  left: 275px;
+  position: absolute;
+  top: 0;
+  width: 230px;
+}
+
+.text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 117px;
+}
+
+.text-wrapper-5 {
+  color: #707070;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 225px;
+}
+
+.location-underline {
+  height: 199px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 155px;
+}
+
+.overlap-3 {
+  height: 201px;
+  left: 550px;
+  position: absolute;
+  top: 0;
+  width: 227px;
+}
+
+.text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 166px;
+}
+
+.text-wrapper-7 {
+  color: #707070;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 224px;
+}
+
+.patientsatis {
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 194px;
+}
+
+.about-section {
+  background-color: #ffffff;
+  height: 769px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 160px;
+  width: 1510px;
+}
+
+.overlap-4 {
+  background-color: #abe5dd;
+  height: 848px;
+  left: -1px;
+  position: relative;
+  top: -79px;
+  width: 1510px;
+}
+
+.about-headings {
+  color: #000000;
+  font-family: var(--headings-h2-font-family);
+  font-size: var(--headings-h2-font-size);
+  font-style: var(--headings-h2-font-style);
+  font-weight: var(--headings-h2-font-weight);
+  left: 129px;
+  letter-spacing: var(--headings-h2-letter-spacing);
+  line-height: var(--headings-h2-line-height);
+  position: absolute;
+  top: 282px;
+  width: 455px;
+}
+
+.about-sub-heading {
+  color: #555555;
+  font-family: var(--body-default-font-family);
+  font-size: var(--body-default-font-size);
+  font-style: var(--body-default-font-style);
+  font-weight: var(--body-default-font-weight);
+  left: 129px;
+  letter-spacing: var(--body-default-letter-spacing);
+  line-height: var(--body-default-line-height);
+  position: absolute;
+  top: 390px;
+  width: 455px;
+}
+
+.button-set {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  left: 129px;
+  position: absolute;
+  top: 499px;
+}
+
+.master-primary-button {
+  align-items: center !important;
+  background-color: #0093ff !important;
+  flex: 0 0 auto !important;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 38px;
+  left: 0;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 130px;
+  box-shadow: 0px 4px 10px #00000040;
+}
+
+.master-secondary-button {
+  align-items: center !important;
+  border-color: #d3d2e3 !important;
+  flex: 0 0 auto !important;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  height: 38px;
+  left: 0;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 130px;
+  box-shadow: 0px 4px 10px #00000040;
+}
+
+.doc-search{
+  height: 192px;
+  left: 102px;
+  position: absolute;
+  top: 702px;
+  width: 1244px;
+}
+
+.search-overlap{
+  background-color: #abe5dd;
+  border-radius: 20px;
+  height: 192px;
+  position: relative;
+  width: 1240px;
+  box-shadow: 0px 4px 10px #00000050;
+}
+
+.find-a-doctor{
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight:700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height:46px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.name-textbox{
+  height: 66px;
+  left: 40px;
+  position: absolute;
+  top: 88px;
+  width: 298px;
+}
+
+.name{
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #0093ff;
+  color: #555555;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 66px;
+  line-height: 46px;
+  padding: 0;
+  padding-left: 19px;
+  position: relative;
+  white-space: nowrap;
+  width: 296px;
+}
+
+.speciality-textbox{
+  height: 66px;
+  left: 400px;
+  position: absolute;
+  top: 88px;
+  width: 298px;
+}
+
+.speciality{
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #0093ff;
+  color: #555555;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 66px;
+  line-height: 46px;
+  padding: 0;
+  padding-left: 19px;
+  position: relative;
+  white-space: nowrap;
+  width: 296px;
+}
+
+.search-button{
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #0093ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  height: 52px;
+  width: 201px;
+  position: absolute;
+  top: 88px;
+  left: 1001px;
+}
+
+.search-button:hover{
+  box-shadow: 0px 4px 10px #00000050;
+}
+
+.span {
+  color: #0093ff !important;
+}
+
+.about-img {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  height: 496px;
+  left: 709px;
+  position: absolute;
+  top: 176px;
+  width: 624px;
+}
+
+stance {
+  left: 232px !important;
+  top: 178px !important;
+}
+
+.doc-search {
+  height: 212px;
+  left: 92px;
+  position: absolute;
+  top: 696px;
+  width: 1260px;
+}
+
+.footers {
+  background-color: #36ff04;
+  height: 454px;
+  left: 0;
+  position: absolute;
+  top: 4224px;
+  width: 1510px;
+}
+
+.overlap-5 {
+  background-color: #ccfff8;
+  height: 454px;
+  position: relative;
+}
+
+.footer-content {
+  height: 212px;
+  left: 785px;
+  position: absolute;
+  top: 100px;
+  width: 545px;
+}
+
+.company-section {
+  height: 185px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 104px;
+}
+
+.text-wrapper-8 {
+  color: #000000;
+  font-family: var(--text-single-300-bold-font-family);
+  font-size: var(--text-single-300-bold-font-size);
+  font-style: var(--text-single-300-bold-font-style);
+  font-weight: var(--text-single-300-bold-font-weight);
+  left: 0;
+  letter-spacing: var(--text-single-300-bold-letter-spacing);
+  line-height: var(--text-single-300-bold-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.text-wrapper-9 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 62px;
+  white-space: nowrap;
+}
+
+.text-wrapper-10 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  white-space: nowrap;
+}
+
+.text-wrapper-11 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 134px;
+  white-space: nowrap;
+}
+
+.text-wrapper-12 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 167px;
+  white-space: nowrap;
+}
+
+.support-section {
+  height: 188px;
+  left: 198px;
+  position: absolute;
+  top: 0;
+  width: 137px;
+}
+
+.text-wrapper-13 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  white-space: nowrap;
+}
+
+.social-media-section {
+  height: 212px;
+  left: 430px;
+  position: absolute;
+  top: 0;
+  width: 117px;
+}
+
+.facebook {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 62px;
+  width: 115px;
+}
+
+.social-media-icon {
+  background-color: #0866ff;
+  border-radius: 5px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.facebook-2 {
+  height: 12px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  width: 7px;
+}
+
+.text-wrapper-14 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+}
+
+.twitter {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 104px;
+  width: 92px;
+}
+
+.twitter-wrapper {
+  background-color: #1d9bf0;
+  border-radius: 5px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.twitter-2 {
+  height: 10px;
+  left: 6px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.text-wrapper-15 {
+  color: #000000;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.instagram {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 117px;
+}
+
+.instagram-wrapper {
+  background-color: #0066ff;
+  border-radius: 5px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.instagram-2 {
+  height: 12px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 12px;
+}
+
+.linked-in {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 188px;
+  width: 103px;
+}
+
+.linked-in-wrapper {
+  background-color: #0077b5;
+  border-radius: 5px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.linked-in-2 {
+  height: 11px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 12px;
+}
+
+.Footer-med-care {
+  color: transparent;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 109px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 80px;
+  width: 247px;
+}
+
+.text-wrapper-16 {
+  color: #000000;
+}
+
+.testimonials {
+  background-color: #ffffff;
+  height: 771px;
+  left: 0;
+  position: absolute;
+  top: 3453px;
+  width: 1510px;
+}
+
+.overlap-6 {
+  background-color: #abe4dc;
+  height: 885px;
+  position: relative;
+  top: -96px;
+}
+
+.overlap-group-2 {
+  height: 168px;
+  left: 413px;
+  position: absolute;
+  top: 114px;
+  width: 614px;
+}
+
+.text-wrapper-17 {
+  color: #000000;
+  font-family: "DM Sans-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 206px;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  white-space: nowrap;
+}
+
+.testimonial {
+  color: #555555;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  width: 614px;
+}
+
+.heading-highlight-2 {
+  height: 168px;
+  left: 206px;
+  position: absolute;
+  top: 0;
+  width: 204px;
+}
+
+.testimonials-cards {
+  height: 412px;
+  left: 110px;
+  position: absolute;
+  top: 323px;
+  width: 1220px;
+}
+
+.testimonial-card {
+  height: 432px;
+  left: -10px;
+  position: absolute;
+  top: -6px;
+  width: 408px;
+}
+
+.testimonial-2 {
+  height: 432px;
+  left: 406px;
+  position: absolute;
+  top: -6px;
+  width: 408px;
+}
+
+.testimonial-3 {
+  height: 432px;
+  left: 822px;
+  position: absolute;
+  top: -6px;
+  width: 408px;
+}
+
+.meet-our-doc {
+  background-color: #ffffff;
+  height: 1592px;
+  left: 0;
+  position: absolute;
+  top: 1861px;
+  width: 1510px;
+}
+
+.overlap-7 {
+  background-color: #abe5dd;
+  height: 1592px;
+  position: relative;
+}
+
+.overlap-group-3 {
+  height: 172px;
+  left: 413px;
+  position: absolute;
+  top: 72px;
+  width: 614px;
+}
+
+.doc-heading {
+  color: #000000;
+  font-family: "DM Sans-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  white-space: nowrap;
+}
+
+.doc-sub-heading {
+  color: #555555;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  width: 614px;
+}
+
+.heading-highlight-3 {
+  height: 172px;
+  left: 155px;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.doc-card-group {
+  height: 1134px;
+  left: 110px;
+  position: absolute;
+  top: 286px;
+  width: 1237px;
+}
+
+.doc-card {
+  height: 555px;
+  left: -10px;
+  position: absolute;
+  top: 2px;
+  width: 408px;
+}
+
+.doc-2 {
+  height: 555px;
+  left: 406px;
+  position: absolute;
+  top: 2px;
+  width: 408px;
+}
+
+.doc-3 {
+  height: 555px;
+  left: 839px;
+  position: absolute;
+  top: -6px;
+  width: 408px;
+}
+
+.doc-4 {
+  height: 555px;
+  left: -10px;
+  position: absolute;
+  top: 593px;
+  width: 408px;
+}
+
+.doc-5 {
+  height: 555px;
+  left: 406px;
+  position: absolute;
+  top: 593px;
+  width: 408px;
+}
+
+.doc-6 {
+  height: 555px;
+  left: 822px;
+  position: absolute;
+  top: 593px;
+  width: 408px;
 }

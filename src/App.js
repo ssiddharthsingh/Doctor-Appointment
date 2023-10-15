@@ -6,8 +6,9 @@ import signUp from "./components/signup";
 import login from "./components/login";
 import FindADoc from "./components/findADoc";
 import Services from "./components/services";
+import Profile from "./components/profile";
 
-import './App.css';
+
 import Navbar from "./components/navbar";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/login" Component={login} />
           <Route path="/FindADoc" Component={FindADoc} />
           <Route path="/Services" Component={Services} />
+          <Route path="/profile" Component={Profile} />
         </Routes>
       </BrowserRouter>
     </>
