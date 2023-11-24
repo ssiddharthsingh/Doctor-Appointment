@@ -63,7 +63,7 @@
     position: absolute;
     top: 300px;
     width: 132px;
-    background-color: #0093ff;
+    background-color: #1a6955;
     border-radius: 20px;
     transition: all 0.2s ease;
 
@@ -89,14 +89,14 @@
     text-align: center;
   }
   
-   .login-img {
+  .login-img {
     height: 450px;
-    left: 1px;
+    left: 60px;
     object-fit: cover;
     position: absolute;
     top: 290px;
     /* width: 627px; */
-  }
+}
   
    .login-part {
     height: 414px;
@@ -120,7 +120,7 @@
     font-size: 24px;
     font-weight: 600;
 
-    background-color: #0093ff;
+    background-color: #1a6955;
     border: none;
     border-radius: 20px;
     height: 52px;

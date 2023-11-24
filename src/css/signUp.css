@@ -21,7 +21,7 @@
 
 .Signupimg{
     height: 400px;
-    left: 1230px;
+    left: 1200px;
     object-fit: cover;
     position: absolute;
     top: 330px;
@@ -44,7 +44,7 @@
 }
 
 .loginbox {
-    background-color: #0093ff;
+    background-color: #1a6955;
     border-radius: 20px;
     height: 38px;
     left: -200px;
@@ -118,13 +118,13 @@
     font-family: "Inter-SemiBold", Helvetica;
     font-size: 24px;
     font-weight: 600;
-    background-color: #0093ff;
+    background-color: #1a6955;
     border: none;
     border-radius: 20px;
     height: 52px; 
     left: 148px;
     position: absolute;
-    top: 470px;
+    top: 530px;
     width: 175px;
 }
 
@@ -212,11 +212,71 @@
 
 .phone-box {
     height: 50px;
-    left: 1px;
+    left: 0px;
     position: absolute;
     top: 400px;
     width: 470px;
 }
 
+.option-tab{
+    height: 50px;
+    left: 0px;
+    position: absolute;
+    top: 465px;
+    width: 470px;
+}
 
+.role{
+    height: 50px;
+    left: 0px;
+    top: 465px;
+    width: 470px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: #999999;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
 
+.Specialiaty{
+    position: absolute;
+    height: 50px;
+    left: 500px;
+    top: 465px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: #999999;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.file{
+    position: absolute;
+    height: 50px;
+    left: 500px;
+    top: 400px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: #999999;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text{
+    color: #999999;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+}

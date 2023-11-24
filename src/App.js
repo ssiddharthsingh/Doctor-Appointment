@@ -6,7 +6,7 @@ import signUp from "./components/signup";
 import login from "./components/login";
 import FindADoc from "./components/findADoc";
 import Services from "./components/services";
-import Profile from "./components/profile";
+import MyProfile from "./components/MyProfile";
 
 
 import Navbar from "./components/navbar";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/login" Component={login} />
           <Route path="/FindADoc" Component={FindADoc} />
           <Route path="/Services" Component={Services} />
-          <Route path="/profile" Component={Profile} />
+          <Route path="/MyProfile" Component={MyProfile} />
         </Routes>
       </BrowserRouter>
     </>

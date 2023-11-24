@@ -39,26 +39,31 @@ const Navbar = () => {
 
   return (<>
     <div className="box">
-      <div className="navbar">
-        <p className="med-care">
-          <Link to="/" className="plusSign">+</Link>
-          <Link to="/" className="SiteTitle">MediCare</Link>
-        </p>
-        <div className="left-menu">
-          <Link to="/findADoc" className="find-a-doc"> Find A Doctor </Link>
-          <Link to="/services" className="services"> Services </Link>
-        </div>
-        <div className="right-menu">
-          {/* <div className="sign-inbtn">
-            <div className="SignInBtn">
-              <Link to="/signUp" className="SignUptxt"> Sign Up </Link>
+      <header className="header">
+        <div className="navbar">
+          <div className="logo">
+            <p className="med-care">
+              <Link to="/" className="plusSign">+</Link>
+              <Link to="/" className="SiteTitle">Dr.Point</Link>
+            </p>
+          </div>
+
+          <div className="left-menu">
+            <div className="sepration-box">
+              <div className="sepration">
+                <Link to="/findADoc" className="find-a-doc"> Find A Doctor </Link>
+                <Link to="/services" className="services"> Services </Link>
+              </div>
             </div>
-          </div> */}
+          </div>
+
           {
             !auth &&
-            <div className="log-inbtn">
-              <Link to="/login" className="LogInBtn"> Log In </Link>
-            </div>
+            <button className="button">
+              <button className="logInbtn" >
+                <Link to="/login" className="LogIn">Log In</Link>
+              </button>
+            </button>
           }
           {
             auth &&
@@ -66,14 +71,16 @@ const Navbar = () => {
               <button onClick={toggleDropdown} className="userBtn">{userName.name}</button>
               {isDropdownOpen && (
                 <ul className="dropdown">
-                  <li><Link to="/Profile" className="myProfile">My Profile</Link></li>
+                  
+                  <li><Link to="/MyProfile" className="myProfile">My Profile</Link></li>
+
                   <li><Link className="LogOutBtn" onClick={() => logoutUser()}>Logout</Link></li>
                 </ul>
               )}
             </div>
           }
         </div>
-      </div>
+      </header>
     </div>
   </>
 

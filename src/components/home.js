@@ -1,19 +1,18 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 // import Navbar from './navbar';
 import "../css/home.css";
 
 import Doc1 from "../img/Doc1.png";
 import Doc2 from "../img/Doc2.png";
-import headingHighlightUnderline from "../img/headingHighlightUnderline.png";
-import expUnderline from "../img//expUnderline.png";
-import Location_Underline from "../img/Location_Underline.png";
-import PatientSatis_Underline from "../img/PatientSatis_Underline.png";
-import TestimonialHighlightUnderline from "../img/TestimonialHighlightUnderline.png";
-import findaDocHighlightUnderline from "../img/findaDocHighlightUnderline.png";
+
 import BG from "../img/BG.png";
 import BG_1 from "../img/BG-1.png";
 import BG_2 from "../img/BG-2.png";
 
+import about_img from "../img/about-img.png";
+import AboutIcon1 from "../img/AboutIcon.png";
+import AboutIcon2 from "../img/AboutIcon2.png";
 
 // import { ImageIcon } from "./ImageIcon";
 
@@ -22,48 +21,11 @@ import BG_2 from "../img/BG-2.png";
 const Home = () => {
 
   return (<>
-    {/* <div className="hero">
-      <div className="hero-section">
-        <div className="overlap">
-        <div className="book-an-appo-btn">
-        <div className="BANbtn">
-          <div className="book-an-appointment">Book An Appointment</div>
-        </div>
-      </div>
-          <div className="tagline">
-            <p className="tagline-text">
-              Your Health,
-              <br />
-              Your Schedule
-              <br />
-              Book Doctor Appointments with Ease!
-            </p>
-          </div>
-          <img className="doc1img" alt="Doc" src={Doc1} />
-          <img className="doc2img" alt="Doc" src={Doc2} />
-          <p className="sub-heading">
-            Seamless Health Management: Book, Confirm, and Stay Healthy! Our website simplifies doctor appointments,
-            putting you in control of your well-being.
-          </p>
-          <div className="clinic-location-div">
-            <div className="statHead">15+</div>
-            <div className="statText">Clinic Locations</div>
-          </div>
-          <div className="patient">
-            <div className="statHead">100%</div>
-            <div className="statText">Patient Satisfaction</div>
-          </div>
-          <div className="expdiv">
-            <div className="statHead">30+</div>
-            <div className="statText">Years Of Experience</div>
-          </div>
-        </div>
-      </div>
-    </div> */}
+
 
     <div className="hero-section">
 
-      <div className="overlap">
+      <div className="tagline-container">
         <p className="tagline-text">
           Your Health,
           <br />
@@ -71,82 +33,105 @@ const Home = () => {
           <br />
           Book Doctor Appointments with Ease!
         </p>
-        <img className="heading-highlight" alt="Heading highlight" src={headingHighlightUnderline} />
+
         <p className="sub-heading">
           Seamless Health Management: Book, Confirm, and Stay Healthy! Our website simplifies doctor appointments,
           putting you in control of your well-being.
         </p>
       </div>
 
-         <button className="book-an-appointment">Book An Appointment </button>
-      {/* <div className="book-an-appo-btn">
-      </div> */}
+      
+      <Link to="/findADoc" className="book-appointment-button">Book An Appointment</Link>
+     
 
-      <img className="doc1img" alt="Doc" src={Doc1} />
-      <img className="doc2img" alt="Doc" src={Doc2} />
+      <img className="doctor-image-1" alt="Doc" src={Doc1} />
+      <img className="doctor-image-2" alt="Doc" src={Doc2} />
 
       <div className="overlap-group">
-        <div className="stat">
+        <div className="statistics-section">
 
-          <div className="div">
-            <div className="text-wrapper-2">30+</div>
-            <div className="text-wrapper-3">Years Of Experience</div>
-            <img className="exp-underline" alt="Exp underline" src={expUnderline} />
+          <div className="experience-stat">
+            <div className="experience-number">30+</div>
+            <div className="experience-description">Years Of Experience</div>
+
           </div>
 
-          <div className="overlap-2">
-            <div className="text-wrapper-4">15+</div>
+          <div className="locations-stat">
+            <div className="locations-number">15+</div>
             <div className="text-wrapper-5">Clinic Locations</div>
-            <img className="location-underline" alt="Location underline" src={Location_Underline} />
+
           </div>
 
           <div className="overlap-3">
             <div className="text-wrapper-6">100%</div>
             <div className="text-wrapper-7">Patient Satisfaction</div>
-            <img className="patientsatis" alt="Patientsatis" src={PatientSatis_Underline} />
+
           </div>
 
           {/* About Section */}
 
         </div>
+
         <div className="about-section">
-          <div className="overlap-4">
-
-            <p className="about-headings">You have lots of reasons to choose us</p>
-            <p className="about-sub-heading">
-              Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
-            </p>
-
-            <div className="button-set">
-              <button className="master-primary-button" type="button">
-                Get started
-              </button>
-              <button className="master-secondary-button" type="button">
-                Talk to sales
-              </button>
-            </div>
-
-            <div className="about-img">
-              {/* <ImageIcon className="image-icon-instance" size="default" sizeDefault="image-icon.png" /> */}
+          <div className="about-heading">
+            <div className="about-content">
+              <div className="about-div">
+                <div className="about-heading-2">
+                  <p className="about-text-wrapper">The Heart And Science Of Medicate Test</p>
+                  <div className="about-sub-text">
+                    <div className="about-about-us">ABOUT US</div>
+                  </div>
+                </div>
+                <p className="about-capitalize-on-low">
+                  Capitalize on low hanging fruit to identify a ballpark value
+                  <br />
+                  added activity to beta test. Override the digital divide with information highway will close.
+                </p>
+              </div>
+              <div className="about-div-2">
+                <div className="about-element">
+                  <div className="about-icon">
+                    <img className="about-icn" alt="Icon" src={AboutIcon1} />
+                  </div>
+                  <div className="about-text-wrapper-2">Multi Speciality Pharma Treatment</div>
+                </div>
+                <div className="about-element-2">
+                  <div className="about-icon">
+                    <img className="about-icn-2" alt="Icon" src={AboutIcon2} />
+                  </div>
+                  <div className="about-text-wrapper-3">24 Hours Medical Service</div>
+                </div>
+              </div>
+              <button className="about-button">More About Us</button>
             </div>
           </div>
         </div>
+
+        <div className="about-image">
+          {/* <ImageIcon className="image-icon-instance" size="default" sizeDefault="image-icon.png" /> */}
+          <img
+            className="about-img"
+            alt="About"
+            src={about_img}
+          />
+        </div>
       </div>
 
-{/* Search Bar */}
-      <div className='doc-search'>
+
+      {/* Search Bar */}
+      {/* <div className='doc-search'>
         <div className='search-overlap'>
-          <div className='find-a-doctor'>Find a Doc</div>
+          <div className='find-a-doctor'>Find a Doctor</div>
           <div className='name-textbox'>
-            <input className="name" placeholder="Name" type="text"/>
+            <input className="name" placeholder="Name" type="text" />
           </div>
           <div className='speciality-textbox'>
-            <input className="speciality" placeholder="Speciality" type="text"/>
-            </div>
-            <button type='submit' className="search-button">Search</button>
+            <input className="speciality" placeholder="Speciality" type="text" />
+          </div>
+          <button type='submit' className="search-button">Search</button>
         </div>
 
-      </div>
+      </div> */}
 
       {/* Footer Section */}
 
@@ -202,7 +187,7 @@ const Home = () => {
 
           <p className="Footer-med-care">
             <span className="span">+</span>
-            <span className="text-wrapper-16">MedCare</span>
+            <span className="text-wrapper-16">Dr.Point</span>
           </p>
         </div>
       </div>
@@ -214,7 +199,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero
               accumsan.
             </p>
-            <img className="heading-highlight-2" alt="Heading highlight" src={TestimonialHighlightUnderline} />
+
           </div>
           <div className="testimonials-cards">
             <img className="testimonial-card" alt="Testimonial" src={BG} />
@@ -231,7 +216,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat gravida malesuada quam commodo id integer
               nam.
             </p>
-            <img className="heading-highlight-3" alt="Heading highlight" src={findaDocHighlightUnderline} />
+
           </div>
           <div className="doc-card-group">
             <img className="doc-card" alt="Doc" src="doc-card1.png" />

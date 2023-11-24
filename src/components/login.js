@@ -65,9 +65,6 @@ const Login = () => {
             </div>
           
             <button className="sign-up-btn">
-              {/* <div className="login-overlap-group">
-                <div className="sign-up-box" />
-              </div> */}
                 <Link to="/signUp" className="sign-up"> Sign Up </Link>
             </button>
 
@@ -87,11 +84,11 @@ const Login = () => {
                 <div className="login-heading">Log In</div>
 
                 <div className="password-box">
-                  <input className="enter-your-password" type="password" placeholder="Enter your password" value={password} required onChange={(e) => { setPassword(e.target.value) }} />
+                  <input className="enter-your-password" type="password" placeholder="Password" value={password} required onChange={(e) => { setPassword(e.target.value) }} />
                 </div>
 
                 <div className="email-box">
-                  <input className="enter-your-email" type="text" placeholder="Enter your email" value={userEmail} required onChange={(e) => { setUseremail(e.target.value) }} />
+                  <input className="enter-your-email" type="text" placeholder="Email" value={userEmail} required onChange={(e) => { setUseremail(e.target.value) }} />
                 </div>
 
               </div>

@@ -1,0 +1,247 @@
+.team {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.team .div {
+    background-color: #ffffff;
+    height: max-content;
+    position: relative;
+    width: 1920px;
+}
+
+.team .banner {
+    height: 258px;
+    left: 166px;
+    position: absolute;
+    top: 25px;
+    width: 1200px;
+}
+
+.team-overlap-group {
+    background-size: 100% 100%;
+    height: 258px;
+    position: relative;
+    left: 0px;
+    width: 258px;
+}
+
+.DocCrewcover{
+    height: 258px;
+    left: 1000px;
+    position: absolute;
+    top: 0px;
+    width: 258px;
+}
+
+.DocCrewcover2{
+    height: 258px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 258px;
+}
+
+.team .text-wrapper {
+    color: #1b1b1b;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 500px;
+    letter-spacing: 0;
+    line-height: 45.8px;
+    position: absolute;
+    text-align: center;
+    top: 106px;
+    white-space: nowrap;
+}
+
+.DocOf{
+    color: #1b1b1b;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    left: 400px;
+    letter-spacing: 0;
+    line-height: 45.8px;
+    position: absolute;
+    text-align: center;
+    top: 88px;
+    white-space: nowrap;
+}
+
+.team .CTA {
+    height: 650px;
+    left: 145px;
+    position: absolute;
+    top: 1739px;
+    width: 1200px;
+}
+
+.team .overlap {
+    height: 650px;
+    position: relative;
+}
+
+.team .CTA-background {
+    background-color: #094737;
+    height: 650px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 585px;
+}
+
+.team .CTA-text {
+    align-items: flex-start;
+    display: flex;
+    left: 360px;
+    position: absolute;
+    top: 0;
+    width: 600px;
+}
+
+.team .CTA-title {
+    height: 650px;
+    position: relative;
+    width: 625px;
+    left: -300px;
+}
+
+.team .CTA-content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 195px;
+    width: 537px;
+}
+
+.team .CTA-heading-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 521px;
+}
+
+.team .CTA-heading {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 13px;
+    position: relative;
+    width: 521px;
+}
+
+.team .ctasub-text {
+    align-items: flex-start;
+    border: 0.5px solid;
+    border-color: #d9d8d8;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 3px 11px;
+    position: relative;
+    width: 295px;
+}
+
+.team .team-text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5.81px;
+    line-height: 19.9px;
+    margin-top: -0.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.team .our-medical-team-is-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+    width: 521px;
+}
+
+.team .our-medical-team-is {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 65px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.team .CTA-button {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 21px;
+    position: relative;
+    width: 537px;
+}
+
+.team .button {
+    all: unset;
+    align-items: flex-start;
+    background-color: #1a6955;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 17px 34px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.team .bookan-appointment {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.team .CTA-image {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 605px;
+    left: -229px;
+}
+
+.team .image-2 {
+    height: 650px;
+    position: relative;
+    width: 605px;
+    
+}
+
+
+

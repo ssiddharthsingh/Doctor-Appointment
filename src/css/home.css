@@ -2,17 +2,15 @@
 
 
 .hero-section {
-  background: linear-gradient(180deg, rgba(0, 255, 224.4, 0.2) 0%, rgba(176.37, 255, 245.57, 0.2) 100%);
-  background-color: rgba(255, 255, 255, 1);
   height: 4678px;
   position: relative;
   width: 1510px;
   margin-top: -150px;
 }
 
-.overlap {
+.tagline-container {
   height: 322px;
-  left: 90px;
+  left: 144px;
   position: absolute;
   top: 220px;
   width: 659px;
@@ -21,7 +19,7 @@
 .tagline-text {
   color: #000000;
   font-family: "Inter-Bold", Helvetica;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700;
   left: 0;
   letter-spacing: 0;
@@ -31,12 +29,12 @@
   width: 659px;
 }
 
-.heading-highlight {
+.heading-underline {
   height: 172px;
   left: 110px;
   position: absolute;
-  top: 130px;
-  width: 522px;
+  top: 115px;
+  width: 460px;
 }
 
 .sub-heading {
@@ -49,17 +47,19 @@
   line-height: normal;
   position: absolute;
   top: 255px;
-  width: 655px;
+  width: 550px;
+  text-align: justify;
 }
 
 
-.book-an-appointment {
-  background-color: #0093ff;
+.book-appointment-button {
+  text-align: center;
+  background-color: #1a6955;
   border: none;
   border-radius: 20px;
   height: 50px;
-  left: 90px;
-  position: absolute;
+  left: 144px;
+  
   top: 598px;
   width: 377px;
   color: #ffffff;
@@ -70,13 +70,17 @@
   line-height: normal;
   position: absolute;
   white-space: nowrap;
+  align-items: center;
+  align-content: center;
+  display: grid;
+  text-decoration: none;
 }
 
-.book-an-appointment:hover {
+.book-appointment-button:hover {
   box-shadow: 0px 4px 10px #00000050;
 }
 
-.doc1img {
+.doctor-image-1 {
   height: 364px;
   left: 923px;
   object-fit: cover;
@@ -84,35 +88,37 @@
   top: 221px;
   width: 236px;
   border-radius: 20px;
+  box-shadow: 0px 4px 10px #61aad7;
 }
 
-.doc2img {
+.doctor-image-2 {
   height: 250px;
-  left: 1204px;
+  left: 1185px;
   object-fit: cover;
   position: absolute;
-  top: 218px;
+  top: 270px;
   width: 182px;
   border-radius: 20px;
+  box-shadow: 0px 4px 10px #8f88b1;
 }
 
 .overlap-group {
   height: 929px;
   left: 1px;
   position: absolute;
-  top: 932px;
+  top: 700px;
   width: 1510px;
 }
 
-.stat {
+.statistics-section {
   height: 201px;
   left: 352px;
   position: absolute;
-  top: 0;
+  /* top: 932px; */
   width: 789px;
 }
 
-.div {
+.experience-stat {
   height: 197px;
   left: 0;
   position: absolute;
@@ -120,7 +126,7 @@
   width: 245px;
 }
 
-.text-wrapper-2 {
+.experience-number {
   color: #000000;
   font-family: "Inter-Bold", Helvetica;
   font-size: 48px;
@@ -134,7 +140,7 @@
   width: 117px;
 }
 
-.text-wrapper-3 {
+.experience-description {
   color: #707070;
   font-family: "Inter-Regular", Helvetica;
   font-size: 20px;
@@ -155,7 +161,7 @@
   width: 204px;
 }
 
-.overlap-2 {
+.locations-stat {
   height: 200px;
   left: 275px;
   position: absolute;
@@ -163,7 +169,7 @@
   width: 230px;
 }
 
-.text-wrapper-4 {
+.locations-number {
   color: #000000;
   font-family: "Inter-Bold", Helvetica;
   font-size: 48px;
@@ -241,18 +247,9 @@
   width: 194px;
 }
 
-.about-section {
-  background-color: #ffffff;
-  height: 769px;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 160px;
-  width: 1510px;
-}
 
 .overlap-4 {
-  background-color: #abe5dd;
+  background-color: #ffffff;
   height: 848px;
   left: -1px;
   position: relative;
@@ -260,32 +257,245 @@
   width: 1510px;
 }
 
+/* about */
+
+.about-section {
+  height: 769px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 140px;
+  width: 500px;
+  left: 800px;
+
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-heading {
+  align-items: flex-start;
+  background-color: #1a6955;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 52px 44px;
+  position: relative;
+  height: 370px;
+}
+
+.about-content {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.about-div {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+  width: 459.48px;
+}
+
+.about-heading-2 {
+  height: 106.33px;
+  position: relative;
+  width: 434.39px;
+}
+
+.about-text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  top: 38px;
+  width: 434px;
+}
+
+.about-sub-text {
+  border: 0.5px solid;
+  border-color: #d9d8d8;
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.about-about-us {
+  color: #eeeeee;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 5.81px;
+  line-height: 19.9px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+}
+
+.about-capitalize-on-low {
+  color: #b6b6b6;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64.42px;
+  letter-spacing: 0;
+  line-height: 22.7px;
+  position: relative;
+  width: 459.48px;
+}
+
+.about-div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 25px;
+  position: relative;
+}
+
+.about-element {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+  position: relative;
+  width: 194.87px;
+}
+
+.about-icon {
+  border: 1px solid;
+  border-color: #d9d8d8;
+  border-radius: 29.54px;
+  height: 59.09px;
+  position: relative;
+  width: 59.09px;
+}
+
+.about-icn {
+  height: 24px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.about-text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Lato-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 37.04px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  position: relative;
+  width: 128px;
+}
+
+.about-element-2 {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+  position: relative;
+  width: 189.43px;
+}
+
+.about-icn-2 {
+  height: 22px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 22px;
+}
+
+.about-text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Lato-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 37.04px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  position: relative;
+  width: 116.34px;
+}
+
+.about-button {
+  all: unset;
+  align-items: center;
+  font-family: "Inter-Medium", Helvetica;
+  color: white;
+  background-color: #064535;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 17px 41px;
+  position: relative;
+}
+
+.about-text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+
+
+/*  */
+
 .about-headings {
   color: #000000;
-  font-family: var(--headings-h2-font-family);
-  font-size: var(--headings-h2-font-size);
-  font-style: var(--headings-h2-font-style);
-  font-weight: var(--headings-h2-font-weight);
-  left: 129px;
-  letter-spacing: var(--headings-h2-letter-spacing);
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  /* font-style: var(--headings-h2-font-style); */
+  font-weight: 700;
+  left: 829px;
+  /* letter-spacing: var(--headings-h2-letter-spacing); */
   line-height: var(--headings-h2-line-height);
   position: absolute;
   top: 282px;
   width: 455px;
+  z-index: 1;
 }
 
 .about-sub-heading {
   color: #555555;
-  font-family: var(--body-default-font-family);
-  font-size: var(--body-default-font-size);
-  font-style: var(--body-default-font-style);
-  font-weight: var(--body-default-font-weight);
-  left: 129px;
-  letter-spacing: var(--body-default-letter-spacing);
-  line-height: var(--body-default-line-height);
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 829px;
   position: absolute;
-  top: 390px;
+  top: 289px;
   width: 455px;
+  top: 390px;
+  width: 355px;
+  text-align: justify;
+  z-index: 1;
 }
 
 .button-set {
@@ -299,7 +509,7 @@
 
 .master-primary-button {
   align-items: center !important;
-  background-color: #0093ff !important;
+  background-color: #1a6955 !important;
   flex: 0 0 auto !important;
   color: white;
   border: none;
@@ -336,16 +546,18 @@
 }
 
 .search-overlap{
-  background-color: #abe5dd;
+  background-color: #1a6955;
   border-radius: 20px;
   height: 192px;
   position: relative;
-  width: 1240px;
-  box-shadow: 0px 4px 10px #00000050;
+  width: 1200px;
+  left: 70px;
+  top: -300px;
+  box-shadow: 0px 4px 10px #1a6955bf;
 }
 
 .find-a-doctor{
-  color: #000000;
+  color: #ffffff;
   font-family: "Inter-Bold", Helvetica;
   font-size: 36px;
   font-weight:700;
@@ -370,7 +582,7 @@
   background-color: #fff;
   border-radius: 20px;
   border: 1px solid;
-  border-color: #0093ff;
+  border-color: #1a6955;
   color: #555555;
   font-family: "Inter-Regular", Helvetica;
   font-size: 20px;
@@ -396,7 +608,7 @@
   background-color: #fff;
   border-radius: 20px;
   border: 1px solid;
-  border-color: #0093ff;
+  border-color: #1a6955;
   color: #555555;
   font-family: "Inter-Regular", Helvetica;
   font-size: 20px;
@@ -414,7 +626,7 @@
   font-family: "Inter-SemiBold", Helvetica;
   font-size: 24px;
   font-weight: 500;
-  background-color: #0093ff;
+  background-color: #064535;
   color: #ffffff;
   border: none;
   border-radius: 20px;
@@ -422,7 +634,7 @@
   width: 201px;
   position: absolute;
   top: 88px;
-  left: 1001px;
+  left: 950px;
 }
 
 .search-button:hover{
@@ -430,18 +642,20 @@
 }
 
 .span {
-  color: #0093ff !important;
+  color: #1a6955 !important;
 }
 
 .about-img {
   /* background-image: url(./container.svg); */
   background-size: 100% 100%;
-  height: 496px;
-  left: 709px;
-  position: absolute;
-  top: 176px;
-  width: 624px;
+  height: 511px;
+  left: 450px;
+  top: -500px;
+
+  position: relative;
 }
+
+
 
 stance {
   left: 232px !important;
@@ -466,7 +680,7 @@ stance {
 }
 
 .overlap-5 {
-  background-color: #ccfff8;
+  background-color: #E5F2EF;
   height: 454px;
   position: relative;
 }
@@ -746,7 +960,7 @@ stance {
 }
 
 .overlap-6 {
-  background-color: #abe4dc;
+  background-color: #ffffff;
   height: 885px;
   position: relative;
   top: -96px;
@@ -838,7 +1052,7 @@ stance {
 }
 
 .overlap-7 {
-  background-color: #abe5dd;
+  background-color: #ffffff;
   height: 1592px;
   position: relative;
 }
@@ -889,10 +1103,10 @@ stance {
 
 .doc-card-group {
   height: 1134px;
-  left: 110px;
+  left: 145px;
   position: absolute;
   top: 286px;
-  width: 1237px;
+  width: 1200px;
 }
 
 .doc-card {
